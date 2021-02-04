@@ -1,17 +1,13 @@
 #include<stdio.h>
 int main(){
 	int N;
-	scanf("%d");
+	scanf("%d",&N);
 	int num[N];
 	int i;
+	scanf("%d",num);
 	for(i=0;i<N;i++)
 	{
-		scanf("%d",&num[i]);
-	}
-	int l;
-	for(l=0;l<N;l++)
-	{
-		printf("%d",num[l]);
+		printf("%d ",num[i]);
 	}
 	return 0;
 }
