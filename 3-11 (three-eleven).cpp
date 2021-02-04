@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-	int N;
-	scanf("%d",&N);
+	long int N;
+	scanf("%ld",&N);
 	printf("%d %d",N%3,N%11);
 	return 0;
 }

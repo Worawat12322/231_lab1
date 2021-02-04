@@ -4,12 +4,12 @@ int main(){
 	scanf("%d",&N);
 	int num[N];
 	int i,l;
-	for(l=1;l<N;l++)
+	for(l=0;l<N;l++)
 	{
 	scanf("%d",&num[l]);		
 	}
-	int max=num[0],locate=0;
-	for(i=1;i<N;i++)
+	int max=num[0],locate=1;
+	for(i=1;i<N;i++&&max!=num[i])
 	{
 		if(max<num[i])
 		{
